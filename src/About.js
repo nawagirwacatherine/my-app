@@ -1,8 +1,7 @@
 
-import './App.js';
 
-function About () {
+function AboutPage () {
 
 }
 
-export default About;
+export default AboutPage;

@@ -1,38 +1,44 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Styling for the navigation bar */
+  .nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 15px 0;
+    margin-bottom: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Individual navigation links */
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
   }
-}
+  
+  /* Hover effect on navigation links */
+  .nav-item:hover {
+    background-color: #495057;
+    color: #f8f9fa;
+  }
+  
+  /* Styling for the active navigation link */
+  .nav-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Styling for each page (optional, depending on your components) */
+  .page {
+    padding: 20px;
+  }

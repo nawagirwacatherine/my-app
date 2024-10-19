@@ -1,35 +1,32 @@
+
 import React from 'react';
 import './App.css';
-import Orderonline from './Orderonline.js';
-import Menu from './Menu';
-import Login from './Login';
 import Home from './Home';
-import {Routes, Route, Link} from 'react-router-dom';
-
-
-
-
+import Menu from './Menu';
+import Orderonline from './Orderonline';
+import Login from './Login';
+import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
-  return(
-
+  return (
     <div className="App">
       <nav className="nav">
         <Link to="/" className="nav-item">Home</Link>
-        <Link to="/Menu" className="nav-item">Menu</Link>
-        <Link to="/Orderonline" className="nav-item">Orderonline</Link>
-        <Link to="/Login" className="nav-item">Login</Link>
-
+        <Link to="/menu" className="nav-item">Menu</Link>
+        <Link to="/orderonline" className="nav-item">Orderonline</Link>
+        <Link to="/login" className="nav-item">Login</Link>
       </nav>
       <Routes>
-    <Route path="/" element={<Home />}/>
-    <Route path= "/Menu" element={<Menu />}/>
-    <Route path= "/Orderonline" element={<Orderonline />}/>
-    <Route path= "/Login" element={<Login />}/>
-    </Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/orderonline" element={<Orderonline />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
-
-
   );
 }
+
 export default App;
+
+
+

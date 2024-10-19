@@ -1,10 +1,14 @@
-import './App.js';
 
-function Home () {
-    return(
-        <h1>Welcome to my site</h1>
-    )
+import React from 'react';
 
+function Home() {
+  return (
+    <div>
+      <h1>Welcome to the Home Page</h1>
+    </div>
+  );
 }
 
-export default Home ;
+export default Home;
+
+
