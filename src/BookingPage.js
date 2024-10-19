@@ -1,10 +1,14 @@
+
 import {useState} from "react";
 import "./style.css"
-function Orderonline() {
+function BookingPage() {
   const[name, setName]= useState("");
   const[score, setScore]= useState("10");
    const[comment, setComment]= useState(";")
-
+   const [date, setDate] = useState("");
+   const [time, setTime] = useState("");
+   const [guests, setGuests] = useState(1);
+   const [occasion, setOccasion] = useState("");
   const handleSubmit = (e) =>{
     e.preventDefault();
     if (Number(score) <= 5 && comment.length <= 10){
@@ -17,28 +21,54 @@ function Orderonline() {
     setComment("");
  
   }
-
+  const handleReservationSubmit = (e) => {
+    e.preventDefault();
+    if (!date) {
+      alert("Please select a date");
+      return;
+    }
+    if (guests < 10 || guests > 500) {
+      alert("Please enter the number of guests between 10 and 500");
+      return;
+    }
+    console.log("Reservation submitted!");
+  };
 
   return (
     <>
-    <form>
+    <form onSubmit={handleReservationSubmit} >
     <label htmlFor="res-date">Choose date</label>
-    <input type="date" id="res-date"/>
+    <input type="date" 
+    id="res-date"
+    
+    value={date}
+    onChange={(e) => setDate(e.target.value)}
+    />
     <label htmlFor="res-time">Choose time</label>
 
-    <select  id="res-time">
-      <option>17:00</option>
-      <option>18:00</option>
-      <option>19:00</option>
-      <option>20:00</option>
-      <option>21:00</option>
-      <option>22:00</option>
+    <select  id="res-time"
+      value={time}
+      onChange={(e) => setTime(e.target.value)}
+    >
+      <option value="17:00">17:00</option>
+      <option value="18:00">18:00</option>
+      <option value="19:00" >19:00</option>
+      <option value="20:00">20:00</option>
+      <option value="21:00">21:00</option>
+      <option value="22:00">22:00</option>
     </select>
 
     <label htmlFor="guests">Number of guests</label>
-    <input type="number" placeholder="1" min="10" max="500" id="guest" />
+    <input type="number" placeholder="1" min="10" max="500"
+     id="guest" 
+     value={guests}
+     onChange={(e) => setGuests(e.target.value)}
+     />
     <label htmlFor="occasion">Occasion</label>
-    <select id="occasion">
+    <select id="occasion"
+      value={occasion}
+      onChange={(e) => setOccasion(e.target.value)}
+    >
       <option >Birthday</option>
       <option >Anniversary</option>
     </select>
@@ -87,4 +117,4 @@ comment:
   )
 }
 
-export default Orderonline;
+export default BookingPage;
