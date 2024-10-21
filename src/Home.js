@@ -1,6 +1,7 @@
 
 import React from 'react';
 import image1Image from "./images/image1.jpg";
+import littleImage from  './images/little.png'
 function Home() {
   const backgroundStyle = {
     backgroundImage:`url(${image1Image})`,
@@ -15,15 +16,19 @@ function Home() {
   
   };
   const footerStyle = {
-    backgroundColor: '#333',  // Dark background
-    color: '#fff',  // White text color
+    backgroundColor: 'grey',  
+    color: '#fff', 
     textAlign: 'center',
     padding: '10px 0',
-    position: 'relative',  // Keeps the footer after the content
+    position: 'relative', 
     width: '100%',
     bottom: '0',
     borderRadius: '10px',
   };
+  const logoStyle = {
+    height: '50px',
+    marginRight: '10px',
+  }
 
   return (
     <>
@@ -41,6 +46,7 @@ function Home() {
     </div>
 
     <footer style={footerStyle}>
+      <img src={littleImage} alt="Logo" style={logoStyle}/>
         <p>© 2024 little lemon. All Rights Reserved.</p>
       </footer>
     </>
