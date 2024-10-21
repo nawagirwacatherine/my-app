@@ -7,10 +7,24 @@ function Home() {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '100vh',
+    borderRadius: '10px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    
+  
   };
+  const footerStyle = {
+    backgroundColor: '#333',  // Dark background
+    color: '#fff',  // White text color
+    textAlign: 'center',
+    padding: '10px 0',
+    position: 'relative',  // Keeps the footer after the content
+    width: '100%',
+    bottom: '0',
+    borderRadius: '10px',
+  };
+
   return (
     <>
     <div style={backgroundStyle}>
@@ -25,44 +39,14 @@ function Home() {
     <div>
       <h1>Welcome to the Home Page</h1>
     </div>
+
+    <footer style={footerStyle}>
+        <p>© 2024 little lemon. All Rights Reserved.</p>
+      </footer>
     </>
   );
 }
 
 export default Home;
-
-// import React from 'react';
-// import littleImage from './images/little.png';  // Import the image
-
-// function Home() {
-//   const backgroundStyle = {
-//     backgroundImage: `url(${littleImage})`,  // Use the imported image
-//     backgroundSize: 'cover',
-//     backgroundPosition: 'center',
-//     height: '100vh',
-//     display: 'flex',
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//   };
-
-//   return (
-//     <>
-//       <div style={backgroundStyle}>
-//         <h1>Welcome to the Home Page</h1>
-//       </div>
-//       <div>
-//         <h1>Welcome to the Home Page</h1>
-//       </div>
-//       <div>
-//         <h1>Welcome to the Home Page</h1>
-//       </div>
-//       <div>
-//         <h1>Welcome to the Home Page</h1>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Home;
 
 

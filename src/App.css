@@ -1,18 +1,20 @@
 .App {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #679fd7;
+    background-color: #181916;
     min-height: 100vh;
     padding: 20px;
+    border-radius: 5px;
   }
   
   /* Styling for the navigation bar */
   .nav {
     display: flex;
     justify-content: center;
-    background-color: #343a40;
+    background-color: hsl(65, 23%, 33%);
     padding: 15px 0;
     margin-bottom: 40px;
+    border-radius: 5px;
   }
   
   /* Individual navigation links */
