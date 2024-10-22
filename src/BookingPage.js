@@ -34,9 +34,10 @@ function BookingPage() {
     console.log("Reservation submitted!");
   };
 
+
   return (
     <>
-    <form onSubmit={handleReservationSubmit} >
+    <form onSubmit={handleReservationSubmit}>
     <label htmlFor="res-date">Choose date</label>
     <input type="date" 
     id="res-date"

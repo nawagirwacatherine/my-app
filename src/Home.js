@@ -12,8 +12,6 @@ function Home() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    
-  
   };
   const footerStyle = {
     backgroundColor: 'grey',  
@@ -33,7 +31,7 @@ function Home() {
   return (
     <>
     <div style={backgroundStyle}>
-      <h1>Welcome to the Home Page</h1>
+      <h1>Welcome to Little lemon Restaurant</h1>
     </div>
     <div>
       <h1>Welcome to the Home Page</h1>
