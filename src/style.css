@@ -55,3 +55,14 @@ form {
   .heading{
     color: green;
   }
+
+  /* .container {
+    background-image:linear-gradient(rgba(0,0,0,0.2),#009688),url(images/image1.jpg),
+    height:100vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+  } */
