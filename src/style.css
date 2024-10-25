@@ -1,4 +1,4 @@
-
+/* 
 
 form {
     display: flex;
@@ -9,7 +9,7 @@ form {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
-    /* background-image:url(images/image1.jpg")  */
+    background-image: url("images/image4.jpg");
   }
   
 
@@ -54,10 +54,67 @@ form {
   }
   .heading{
     color: green;
+  } */
+
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove any margin */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    background-image:linear-gradient(rgba(125, 132, 105, 0.2), #3c4313), url("images/image4.jpg");
+    background-size: cover; /* Ensure the background covers the entire form */
+    background-position: center; /* Center the background image */
   }
 
-  /* .container {
-    background-image:linear-gradient(rgba(0,0,0,0.2),#009688),url(images/image1.jpg),
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+input[type="date"],
+input[type="number"],
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form input, form select {
+    margin-bottom: 15px;
+  }
+
+.heading {
+    color: green;
+  }
+  .background-style {
+    background-image: linear-gradient(rgba(0,0,0,0.2), #009688), url("images/image1.jpg");
     height:100vh;
     border-radius: 10px;
     display: flex;
@@ -65,4 +122,26 @@ form {
     align-items: center;
     background-size: cover;
     background-position: center;
+  }
+
+  /* label {
+    font-size: 14px;
   } */
+
+
+  .unordered-menu {
+    list-style-type: disc; /* default for unordered lists */
+    margin-bottom: 20px; /* add spacing between the two lists */
+}
+
+.ordered-menu {
+    list-style-type: decimal; /* default for ordered lists */
+}
+
+.background-style ul, .background-style ol {
+    padding-left: 20px; /* add some padding to align the list nicely */
+}
+
+.background-style li {
+    margin-bottom: 10px; /* add space between list items */
+}
