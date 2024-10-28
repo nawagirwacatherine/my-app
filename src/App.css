@@ -1,14 +1,19 @@
 .App {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #15180e;
+    background-color: #323030;
     min-height: 100vh;
     padding: 20px;
     border-radius: 5px;
   }
   
+  .logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 20px;
+  }
   /* Styling for the navigation bar */
-  .nav {
+  /* .nav {
     display: flex;
     justify-content: center;
     background-color: hsl(65, 23%, 33%);
@@ -26,8 +31,23 @@
     margin: 0 10px;
     transition: background-color 0.3s ease;
     border-radius: 5px;
+  } */
+  
+
+  .nav {
+    display: flex;
+    align-items: center;
+    background-color: hsl(65, 23%, 33%);
+    padding: 15px 0;
+    margin-bottom: 40px;
+    border-radius: 5px;
   }
   
+  .nav-items-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Allows nav items to grow and align centrally */
+  }
   /* Hover effect on navigation links */
   .nav-item:hover {
     background-color: #495057;

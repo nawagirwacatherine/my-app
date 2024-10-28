@@ -25,16 +25,24 @@ function Home() {
     </div>
     <div className="background-style">
     </div>
-    <div>
+     <div>
       <h1>Welcome to the Home Page</h1>
     </div>
     <div>
-      <h1>Welcome to the Home Page</h1>
+      <h1>Highlights</h1>
     </div>
+    <div>
+    <h1>Testimonials</h1>
+    </div>
+
+    <div>
+      <h1>About </h1>
+      <p><br/>Name<br/><br/>Description<br/><br/>Photos<br/><br/>Name<br/></p>
+    </div> 
 
     <footer style={footerStyle}>
 
-    <div class="flex-container">
+    <div className="flex-container">
             <div>
             <img src={littleImage} alt="Logo" style={logoStyle}/>
             </div>
