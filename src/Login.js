@@ -4,7 +4,7 @@ import image3Images from './images/image3.jpg';
 function Login() {
     const backgroundStyle={
 
-         backgroundImage:`linear-gradient(rgba(2,5,10,0.4),#009688),url(${image3Images})`,
+    backgroundImage:`linear-gradient(rgba(2,5,10,0.4),#009688),url(${image3Images})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '100vh',
