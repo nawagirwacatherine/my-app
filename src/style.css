@@ -57,7 +57,7 @@ form input, form select {
     color: green;
   }
   .background-style {
-    background-image: linear-gradient(rgba(0,0,0,0.2), #009688), url("images/image1.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), #009688), url("images/image2.jpg");
     height:100vh;
     border-radius: 10px;
     display: flex;
