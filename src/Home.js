@@ -3,9 +3,12 @@ import React from 'react';
 // import littleImage from  './images/little.png'
 
 import footer from './images/little.png';
-import imagesImage5 from './images/image5.jpg';
+import imagesImage4 from './images/image4.jpg';
 import imagesImage2 from './images/image2.jpg';
 import imagesImage3 from './images/image3.jpg';
+import imagesHighlight from './images/highlight.jpeg';
+import imagesHighlight1 from './images/highlight1.png';
+import imagesHighlight2 from './images/highlight2.jpg';
 function Home() {
   const footerStyle = {
     backgroundColor: 'grey',  
@@ -36,7 +39,7 @@ function Home() {
     <div>
       <h1>Highlights</h1>
       <div className="Highlights">
-      <img src={imagesImage5} alt="imagesImage5" className="footer" />
+      <img src={imagesImage4} alt="imagesImage4" className="footer" />
       <img src={imagesImage2} alt="footer" className="footer" />
       <img src={imagesImage3} alt="footer" className="footer" />
     </div>
@@ -45,9 +48,9 @@ function Home() {
     <h1>Testimonials</h1>
 
     <div className="Highlights">
-      <img src={imagesImage5} alt="imagesImage5" className="footer" />
-      <img src={imagesImage2} alt="footer" className="footer" />
-      <img src={imagesImage3} alt="footer" className="footer" />
+      <img src={imagesHighlight} alt="imagesHighlight" className="footer" />
+      <img src={imagesHighlight1} alt="imagesHighlight1" className="footer" />
+      <img src={imagesHighlight2} alt="imagesHighlight2" className="footer" />
     </div>
     </div>
 
