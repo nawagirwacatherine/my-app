@@ -7,10 +7,10 @@ function Menu() {
         <>
         <div>
 
-            <h1>
+            <h1 className='heading'>
                 OUR DAILY MENU
             </h1>
-            <p>At our restaurant our customers are our priority please expect the 
+            <p className='heading'>At our restaurant our customers are our priority please expect the 
                 best of the best service from us
             </p>
             </div>

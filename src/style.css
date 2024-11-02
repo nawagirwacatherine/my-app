@@ -52,6 +52,12 @@ input[type="submit"]:hover {
 form input, form select {
     margin-bottom: 15px;
   }
+  p{
+    color: rgb(3, 81, 81);
+  }
+  h1{
+    color: #3a722d;
+  }
 
 .heading {
     color: green;
@@ -74,19 +80,31 @@ form input, form select {
 
   .unordered-menu {
     list-style-type: disc; /* default for unordered lists */
-    margin-bottom: 20px; /* add spacing between the two lists */
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: darkgoldenrod;
+    /* add spacing between the two lists */
 }
 
-.ordered-menu {
-    list-style-type: decimal; /* default for ordered lists */
+.ordered-menu li {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: bold;
 }
 
-.background-style ul, .background-style ol {
+/* .background-style ul, .background-style ol {
     padding-left: 20px; /* add some padding to align the list nicely */
-}
+
 
 .background-style li {
     margin-bottom: 10px; /* add space between list items */
+} */
+
+/* Additional styling for hover effects */
+.unordered-menu li:hover,
+.ordered-menu li:hover {
+    color: #007bff; /* Blue text on hover */
+    cursor: pointer;
 }
 
 .footer{

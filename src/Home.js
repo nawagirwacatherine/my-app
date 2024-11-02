@@ -29,7 +29,11 @@ function Home() {
     <>
 
 <div>
-      <h1>Welcome to the Home Page</h1>
+      <h1>Welcome to Little Lemon!</h1>
+      <p>
+Nestled in the heart of Kampala, Little Lemon is your go-to destination for fresh, vibrant, and flavorful dishes inspired by Mediterranean/Italian/Global, etc. cuisine. We’re passionate about using high-quality ingredients to create meals that are as beautiful as they are delicious, perfect for family gatherings, date nights, and friendly get-togethers. Come savor our warm, inviting atmosphere, where every meal feels like a celebration of great food, good company, and unforgettable flavors.
+
+</p>
     </div>
     <div className="background-style">
     </div>
