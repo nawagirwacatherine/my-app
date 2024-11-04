@@ -50,8 +50,8 @@ function BookingPage() {
   return (
     <>
     <div>
-      <h1>FOR ALL YOUR RESERVATION CHECK DOWN HERE</h1>
-      <p>We have a form down please place your reservation!</p>
+      <h1>FOR ALL YOUR RESERVATIONS CHECK DOWN HERE!</h1>
+      <p>We have a form down please place your reservation!  <b/>Feel free to feedback about anything we are here to serve you<b/></p>
     </div>
     <form onSubmit={handleReservationSubmit}>
     <label htmlFor="res-date">Choose date</label>
