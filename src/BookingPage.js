@@ -1,6 +1,7 @@
 
 import {useState} from "react";
 import "./style.css"
+import footer from './images/little.png';
 function BookingPage() {
   const[name, setName]= useState("");
   const[score, setScore]= useState("10");
@@ -34,9 +35,24 @@ function BookingPage() {
     console.log("Reservation submitted!");
   };
 
+  const footerStyle = {
+    backgroundColor: 'grey',  
+    color: '#fff', 
+    textAlign: 'center',
+    padding: '10px 0',
+    position: 'relative', 
+    width: '100%',
+    bottom: '0',
+    borderRadius: '10px',
+  };
+
 
   return (
     <>
+    <div>
+      <h1>FOR ALL YOUR RESERVATION CHECK DOWN HERE</h1>
+      <p>We have a form down please place your reservation!</p>
+    </div>
     <form onSubmit={handleReservationSubmit}>
     <label htmlFor="res-date">Choose date</label>
     <input type="date" 
@@ -114,6 +130,20 @@ comment:
 
       </form>
     </div>
+
+    <footer style={footerStyle}>
+    <img src={footer} alt="footer" className="footer" />
+
+    <div className="flex-container">
+            <div>
+
+            </div>
+            <div>
+                <p>Copyright little Lemon</p>
+            </div>
+           
+        </div>
+      </footer>
     </>
   )
 }

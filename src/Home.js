@@ -1,6 +1,5 @@
 import './style.css';
 import React from 'react';
-// import littleImage from  './images/little.png'
 
 import footer from './images/little.png';
 import imagesImage4 from './images/image4.jpg';
@@ -21,11 +20,7 @@ function Home() {
     bottom: '0',
     borderRadius: '10px',
   };
-  // const logoStyle = {
-  //   height: '50px',
-  //   marginRight: '10px',
-  // }
-
+  
   return (
     <>
 
@@ -95,7 +90,7 @@ Come taste the Mediterranean spirit at Little Lemon – where freshness, flavor,
 
     <div className="flex-container">
             <div>
-            {/* <img src={littleImage} alt="Logo" style={logoStyle}/> */}
+
             </div>
             <div>
                 <p>Copyright little Lemon</p>

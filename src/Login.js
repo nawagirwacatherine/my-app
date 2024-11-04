@@ -1,7 +1,19 @@
 import './App.js';
 import image3Images from './images/image3.jpg';
+import footer from './images/little.png';
 
 function Login() {
+
+    const footerStyle = {
+        backgroundColor: 'grey',  
+        color: '#fff', 
+        textAlign: 'center',
+        padding: '10px 0',
+        position: 'relative', 
+        width: '100%',
+        bottom: '0',
+        borderRadius: '10px',
+      };
     const backgroundStyle={
 
     backgroundImage:`linear-gradient(rgba(2,5,10,0.4),#009688),url(${image3Images})`,
@@ -15,6 +27,7 @@ function Login() {
     
     }
         return(
+            <>
             <div style={backgroundStyle}>
 
 <div className="Field">
@@ -32,6 +45,22 @@ function Login() {
      </div>
      <button type="submit">Submit</button>
             </div>
+
+<footer style={footerStyle}>
+<img src={footer} alt="footer" className="footer" />
+
+<div className="flex-container">
+        <div>
+
+        </div>
+        <div>
+            <p>Copyright little Lemon</p>
+        </div>
+       
+    </div>
+  </footer>
+
+  </>
         )
     
 

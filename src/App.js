@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
     <nav className="nav">
-  {/* <img src="images/little.png" alt="Logo" className="logo" /> */}
 
   <img src={logo} alt="Logo" className="logo" />
   <div className="nav-items-wrapper">
