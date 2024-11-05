@@ -163,6 +163,23 @@ form input, form select {
   gap: 20px;
 }
 
+
+.highlights {
+  text-align: center;
+}
+
+.highlights-section {
+  display: flex;
+  flex-direction: column; /* For a vertical layout on smaller screens */
+  gap: 20px;
+}
+
+.highlights-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .image {
   width: 150px;
   height: auto;
@@ -171,11 +188,11 @@ form input, form select {
 
 /* For larger screens, align images and testimonials in a row */
 @media (min-width: 768px) {
-  .testimonial-section {
+  .highlights-section {
     flex-direction: row;
   }
 
-  .testimonial-item {
+  .highlights-item {
     flex-direction: column;
     text-align: left;
   }
