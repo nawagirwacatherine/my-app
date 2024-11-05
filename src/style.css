@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-image:linear-gradient(rgba(125, 132, 105, 0.2), #3c4313), url("images/dissert.jpg"); */
 }
 
   form {
@@ -106,7 +107,7 @@ form input, form select {
     color: #007bff; 
     cursor: pointer;
 }
-
+/* 
  .footer-images {
   display: flex;
   justify-content: center;
@@ -143,8 +144,42 @@ form input, form select {
   width: 100px; 
   height: auto;
   margin: 10px 0;
+} */
+
+
+.Testimonials {
+  text-align: center;
 }
 
+.testimonial-section {
+  display: flex;
+  flex-direction: column; /* For a vertical layout on smaller screens */
+  gap: 20px;
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* For larger screens, align images and testimonials in a row */
+@media (min-width: 768px) {
+  .testimonial-section {
+    flex-direction: row;
+  }
+
+  .testimonial-item {
+    flex-direction: column;
+    text-align: left;
+  }
+}
 .flex-container {
   display: flex;
   align-items: center;

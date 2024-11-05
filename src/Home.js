@@ -47,7 +47,7 @@ Nestled in the heart of Kampala, Little Lemon is your go-to destination for fres
       <img src={imagesImage1} alt="Highlight 4" className="image" />
     </div>
     </div>
-    <div className="Testimonials">
+    {/* <div className="Testimonials">
     <h1>Testimonials</h1>
     <p>"Little Lemon is a gem in Kampala! The food is bursting with authentic Mediterranean flavors, and the ambiance is so cozy and welcoming. It feels like a little escape to the Mediterranean!"
 — Sarah M.
@@ -83,7 +83,45 @@ Whether you're joining us for a quick lunch, a relaxed family dinner, or a speci
 Our mission is to offer more than just a meal. We want you to enjoy the ambiance, feel at home, and indulge in flavors that celebrate the joy of food and community. Join us for an unforgettable dining experience where every dish tells a story and every visit feels like a celebration.
 
 Come taste the Mediterranean spirit at Little Lemon – where freshness, flavor, and friendship come together.<br/><br/>Photos<br/><br/>Name<br/></p>
-    </div> 
+    </div>  */}
+
+<div className="Testimonials">
+  <h1>Testimonials</h1>
+  <div className="testimonial-section">
+    <section className="testimonial-item">
+      <img src={imagesHighlight} alt="Testimonial 1" className="image" />
+      <p>
+        "Little Lemon is a gem in Kampala! The food is bursting with authentic Mediterranean flavors, and the ambiance is so cozy and welcoming. It feels like a little escape to the Mediterranean!"
+        <br />— Sarah M.
+      </p>
+    </section>
+
+    <section className="testimonial-item">
+      <img src={imagesHighlight1} alt="Testimonial 2" className="image" />
+      <p>
+        "Perfect place for a family meal or a romantic dinner. The dishes are beautifully presented, and the staff treats you like family. My favorite spot in the city!"
+        <br />— James K.
+      </p>
+    </section>
+
+    <section className="testimonial-item">
+      <img src={imagesHighlight2} alt="Testimonial 3" className="image" />
+      <p>
+        "The freshness of the ingredients really sets Little Lemon apart. Every bite is delicious, from the appetizers to the desserts. Highly recommend the grilled lamb and handmade pasta!"
+        <br />— Linda T.
+      </p>
+    </section>
+
+    {/* Add more testimonial items as needed */}
+  </div>
+</div>
+
+<div className="About">
+  <h1>About</h1>
+  <p>
+    {/* About content here */}
+  </p>
+</div>
 
     <footer style={footerStyle}>
     <img src={footer} alt="footer" className="footer" />
