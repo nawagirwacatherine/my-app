@@ -11,7 +11,7 @@ import imagesHighlight1 from './images/highlight1.png';
 import imagesHighlight2 from './images/highlight2.jpg';
 function Home() {
   const footerStyle = {
-    backgroundColor: 'grey',  
+    backgroundColor: '#3c4313',  
     color: '#fff', 
     textAlign: 'center',
     padding: '10px 0',
@@ -115,7 +115,7 @@ Nestled in the heart of Kampala, Little Lemon is your go-to destination for fres
 </div>
 
 <div className="About">
-  <h1>About</h1>
+  <h1>Socials</h1>
   <p>
     {/* About content here */}
   </p>
