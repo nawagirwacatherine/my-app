@@ -36,7 +36,7 @@ function BookingPage() {
   };
 
   const footerStyle = {
-    backgroundColor: 'grey',  
+    backgroundColor: '#3c4313',  
     color: '#fff', 
     textAlign: 'center',
     padding: '10px 0',

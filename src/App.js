@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 import Menu from './Menu';
+import AboutUs from './AboutUs';
 import BookingPage from './BookingPage';
 import Login from './Login';
 import logo from './images/little.png';
@@ -19,6 +20,7 @@ function App() {
     <Link to="/menu" className="nav-item">Menu</Link>
     <Link to="/BookingPage" className="nav-item">BookingPage</Link>
     <Link to="/login" className="nav-item">Login</Link>
+    <Link to="/About-us" className="nav-item">About us</Link>
   </div>
 </nav>
       <Routes>
@@ -26,6 +28,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/BookingPage" element={<BookingPage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/About-us" element={<AboutUs />} />
       </Routes>
     </div>
   );
