@@ -44,17 +44,25 @@ Nestled in the heart of Kampala, Little Lemon is your go-to destination for fres
         <div className='highlights-section'>
         <section className="highlights-item">
       <img src={imagesImage4} alt="Highlight 1" className="image" />
+      <article>
       <p>We offer you a warm welcome!</p>
+      </article>
       </section>
 
       <section className="highlights-item">
       <img src={imagesImage2} alt="Highlight 2" className="image" />
-      We care about your visitors day out!!
+      <article>
+      <p>We care about your visitors day out!!</p>
+      </article>
       </section>
 
       <section className="highlights-item">
       <img src={imagesImage3} alt="Highlight 3" className="image" />
+      <article>
+        <p>
       Meeting arrangements
+      </p>
+      </article>
       </section>
 
 
@@ -75,29 +83,34 @@ Nestled in the heart of Kampala, Little Lemon is your go-to destination for fres
   <div className="testimonial-section">
     <section className="testimonial-item">
       <img src={imagesHighlight} alt="Testimonial 1" className="image" />
+      <article>
       <p>
         "Little Lemon is a gem in Kampala! The food is bursting with authentic Mediterranean flavors, and the ambiance is so cozy and welcoming. It feels like a little escape to the Mediterranean!"
         <br />— Sarah M.
       </p>
+      </article>
     </section>
 
     <section className="testimonial-item">
       <img src={imagesHighlight1} alt="Testimonial 2" className="image" />
+      <article>
       <p>
         "Perfect place for a family meal or a romantic dinner. The dishes are beautifully presented, and the staff treats you like family. My favorite spot in the city!"
         <br />— James K.
       </p>
+      </article>
     </section>
 
     <section className="testimonial-item">
       <img src={imagesHighlight2} alt="Testimonial 3" className="image" />
+      <article>
       <p>
         "The freshness of the ingredients really sets Little Lemon apart. Every bite is delicious, from the appetizers to the desserts. Highly recommend the grilled lamb and handmade pasta!"
         <br />— Linda T.
       </p>
+      </article>
     </section>
 
-    {/* Add more testimonial items as needed */}
   </div>
 </div>
 
