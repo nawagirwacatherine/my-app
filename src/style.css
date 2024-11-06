@@ -118,6 +118,7 @@ form input, form select {
   flex-direction: column;
   align-items:center; 
   gap: 20px;
+  background-color: #3c4313;
 }
 
 .testimonial-item {
@@ -155,11 +156,17 @@ form input, form select {
     text-align: center; /* Center align for large screens */
   }
 }
+.testimonial-item:hover {
+  transform: scale(1.05); /* Slightly scale up the element */
+  box-shadow: 0 4px 8px rgba(219, 99, 99, 0.2); /* Add a shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
 
 article{
   padding: 20%;
   margin-bottom: auto;
   border-radius: 20px;
+  /* background-color: chartreuse; */
 }
 
 
@@ -172,6 +179,7 @@ article{
   flex-direction: column; /* For a vertical layout on smaller screens */
   gap: 20px;
   align-items:center;
+  background-color: #3a722d;
 }
 
 .highlights-item {
@@ -211,6 +219,11 @@ article{
     order: 2;
     text-align: center; /* Center align for large screens */
   }
+}
+.highlights-item:hover {
+  transform: scale(1.05); /* Slightly scale up the element */
+  box-shadow: 0 4px 8px rgba(190, 17, 17, 0.2); /* Add a shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 .flex-container {
   display: flex;
