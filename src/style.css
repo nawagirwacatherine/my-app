@@ -222,7 +222,7 @@ article{
   box-shadow: 0 4px 8px rgba(199, 6, 6, 0.2); /* Add a shadow effect */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
-
+/* 
 .footer-style {
   background-color: #3c4313;
   color: #fff;
@@ -250,4 +250,23 @@ article{
   width: 50px; 
   height: auto;
   margin-right: 20px;
+} */
+
+.footer-style {
+  background-color: #3c4313;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
 }
