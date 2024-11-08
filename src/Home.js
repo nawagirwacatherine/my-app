@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
 
-import footer from './images/little.png';
+import Footer from './Footer';
 import imagesImage4 from './images/image4.jpg';
 import imagesImage2 from './images/image2.jpg';
 import imagesImage3 from './images/image3.jpg';
@@ -11,16 +11,6 @@ import imagesHighlight1 from './images/highlight1.png';
 import imagesHighlight2 from './images/highlight2.jpg';
 import logo from './images/little.png';
 function Home() {
-  const footerStyle = {
-    backgroundColor: '#3c4313',  
-    color: '#fff', 
-    textAlign: 'center',
-    padding: '10px 0',
-    position: 'relative', 
-    width: '100%',
-    bottom: '0',
-    borderRadius: '10px',
-  };
 
   const containerStyle = {
     display: 'flex', 
@@ -150,23 +140,7 @@ function Home() {
   </p>
   <img src={imagesImage3} alt="Restaurant" style={imageStyle} />
 </div>
-
-    <footer style={footerStyle}>
-    <img src={footer} alt="footer" className="footer" />
-    
-
-    <div className="flex-container">
-            <div>
-            <img src={logo} alt="Logo" className="logo" />
-            </div>
-            <div>
-                <p>Copyright little Lemon</p>
-            </div>
-           
-        </div>
-      </footer>
-
-
+<Footer />{Footer}
     </>
   );
 }
