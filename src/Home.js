@@ -9,6 +9,7 @@ import imagesImage1 from './images/image1.jpg';
 import imagesHighlight from './images/highlight.jpeg';
 import imagesHighlight1 from './images/highlight1.png';
 import imagesHighlight2 from './images/highlight2.jpg';
+import logo from './images/little.png';
 function Home() {
   const footerStyle = {
     backgroundColor: '#3c4313',  
@@ -20,16 +21,42 @@ function Home() {
     bottom: '0',
     borderRadius: '10px',
   };
+
+  const containerStyle = {
+    display: 'flex', 
+    alignItems: 'center', 
+    justifyContent: 'space-between', 
+    padding: '20px',
+    flexDirection: 'row-reverse',
+  };
+
+  const imageStyle = {
+    width: '40%', 
+    borderRadius: '10px',
+    opacity: '0.8',  // Adjust the opacity if needed
+    objectFit: 'cover',
+    };
+
+  const textStyle = {
+    width: '55%',
+    marginLeft: '20px',
+    textAlign: 'left',
+  };
   
   return (
     <>
+<div style={containerStyle}>
+        <img src={imagesImage2} alt="Restaurant" style={imageStyle} />
+        <div style={textStyle}>
+          <h1>Welcome to Little Lemon!</h1>
+          <p>
+            Nestled in the heart of Kampala, Little Lemon is your go-to destination for fresh, vibrant, and flavorful dishes inspired by Mediterranean/Italian/Global cuisine. We’re passionate about using high-quality ingredients to create meals that are as beautiful as they are delicious, perfect for family gatherings, date nights, and friendly get-togethers. Come savor our warm, inviting atmosphere, where every meal feels like a celebration of great food, good company, and unforgettable flavors.
+          </p>
 
-<div>
-      <h1>Welcome to Little Lemon!</h1>
-      <p>
-Nestled in the heart of Kampala, Little Lemon is your go-to destination for fresh, vibrant, and flavorful dishes inspired by Mediterranean/Italian/Global, etc. cuisine. We’re passionate about using high-quality ingredients to create meals that are as beautiful as they are delicious, perfect for family gatherings, date nights, and friendly get-togethers. Come savor our warm, inviting atmosphere, where every meal feels like a celebration of great food, good company, and unforgettable flavors.
-
-</p>
+          {/* <button>
+            <input type='text'>button</input>
+          </button> */}
+</div>
     </div>
     <div className="background-style">
     </div>
@@ -114,19 +141,23 @@ Nestled in the heart of Kampala, Little Lemon is your go-to destination for fres
   </div>
 </div>
 
-<div className="About">
-  <h1>Socials</h1>
+<div style={containerStyle} className="About">
+  <h1>Little Lemon</h1>
+  <h2>Kampala uganda</h2>
   <p>
-    {/* About content here */}
+    Was founded in 2010 by two Twins who believed in their art of cooking. <br/>It has increased its menu over the time.<br/>And serves foreigners different dishes of their choice hence satisfying our clients
+    
   </p>
+  <img src={imagesImage3} alt="Restaurant" style={imageStyle} />
 </div>
 
     <footer style={footerStyle}>
     <img src={footer} alt="footer" className="footer" />
+    
 
     <div className="flex-container">
             <div>
-
+            <img src={logo} alt="Logo" className="logo" />
             </div>
             <div>
                 <p>Copyright little Lemon</p>
