@@ -145,7 +145,7 @@ comment:
         </div>
       </footer> */}
 
-<Footer />
+{<Footer />}
     </>
   )
 }

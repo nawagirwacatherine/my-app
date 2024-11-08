@@ -17,7 +17,7 @@ function Footer() {
             <p>Copyright Little Lemon</p>
           </div>
         </div>
-      </footer>
+        </footer>
     );
   }
   
