@@ -1,6 +1,7 @@
 import './App.js';
 import image3Images from './images/image3.jpg';
-import footer from './images/little.png';
+import Footer from './Footer';
+
 
 function Login() {
 
@@ -46,7 +47,7 @@ function Login() {
      <button type="submit">Submit</button>
             </div>
 
-<footer style={footerStyle}>
+{/* <footer style={footerStyle}>
 <img src={footer} alt="footer" className="footer" />
 
 <div className="flex-container">
@@ -58,7 +59,8 @@ function Login() {
         </div>
        
     </div>
-  </footer>
+  </footer> */}
+  <Footer />
 
   </>
         )

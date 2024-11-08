@@ -1,7 +1,7 @@
 
 import {useState} from "react";
 import "./style.css"
-import footer from './images/little.png';
+import Footer from './Footer';
 function BookingPage() {
   const[name, setName]= useState("");
   const[score, setScore]= useState("10");
@@ -131,7 +131,7 @@ comment:
       </form>
     </div>
 
-    <footer style={footerStyle}>
+    {/* <footer style={footerStyle}>
     <img src={footer} alt="footer" className="footer" />
 
     <div className="flex-container">
@@ -143,7 +143,9 @@ comment:
             </div>
            
         </div>
-      </footer>
+      </footer> */}
+
+<Footer />
     </>
   )
 }

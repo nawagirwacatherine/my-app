@@ -1,6 +1,5 @@
 import './style.css';
 import React from 'react';
-
 import Footer from './Footer';
 import imagesImage4 from './images/image4.jpg';
 import imagesImage2 from './images/image2.jpg';
@@ -9,7 +8,7 @@ import imagesImage1 from './images/image1.jpg';
 import imagesHighlight from './images/highlight.jpeg';
 import imagesHighlight1 from './images/highlight1.png';
 import imagesHighlight2 from './images/highlight2.jpg';
-import logo from './images/little.png';
+
 function Home() {
 
   const containerStyle = {
@@ -140,7 +139,7 @@ function Home() {
   </p>
   <img src={imagesImage3} alt="Restaurant" style={imageStyle} />
 </div>
-<Footer />{Footer}
+<Footer />
     </>
   );
 }

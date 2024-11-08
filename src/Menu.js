@@ -1,7 +1,7 @@
 
 import './App.js';
 import './style.css';
-import footer from './images/little.png';
+import Footer from './Footer';
 
 function Menu() {
     const footerStyle = {
@@ -42,7 +42,7 @@ function Menu() {
             </ol>
         </div>
 
-        <footer style={footerStyle}>
+        {/* <footer style={footerStyle}>
     <img src={footer} alt="footer" className="footer" />
 
     <div className="flex-container">
@@ -54,7 +54,8 @@ function Menu() {
             </div>
            
         </div>
-      </footer>
+      </footer> */}
+      <Footer />
         </>
     );
 }
