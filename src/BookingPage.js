@@ -35,16 +35,16 @@ function BookingPage() {
     console.log("Reservation submitted!");
   };
 
-  const footerStyle = {
-    backgroundColor: '#3c4313',  
-    color: '#fff', 
-    textAlign: 'center',
-    padding: '10px 0',
-    position: 'relative', 
-    width: '100%',
-    bottom: '0',
-    borderRadius: '10px',
-  };
+  // const footerStyle = {
+  //   backgroundColor: '#3c4313',  
+  //   color: '#fff', 
+  //   textAlign: 'center',
+  //   padding: '10px 0',
+  //   position: 'relative', 
+  //   width: '100%',
+  //   bottom: '0',
+  //   borderRadius: '10px',
+  // };
 
 
   return (
@@ -145,7 +145,7 @@ comment:
         </div>
       </footer> */}
 
-{<Footer />}
+<Footer />
     </>
   )
 }

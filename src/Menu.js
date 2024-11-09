@@ -55,7 +55,7 @@ function Menu() {
            
         </div>
       </footer> */}
-      {<Footer />}
+      <Footer />
         </>
     );
 }

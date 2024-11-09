@@ -60,7 +60,7 @@ function Login() {
        
     </div>
   </footer> */}
-  {<Footer />}
+  <Footer />
 
   </>
         )
