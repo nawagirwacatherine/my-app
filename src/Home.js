@@ -49,11 +49,11 @@ function Home() {
     </div>
     <div className="background-style">
     </div>
-     <div>
+     {/* <div>
       <h1>Discover more below!</h1>
       <p>Highlights<br/>Testimonial<br/>Our photos
       <br/>briefly about us</p>
-    </div>
+    </div> */}
     <div className='highlights'>
       <h1>Highlights</h1>
       <div className="footer-images">
