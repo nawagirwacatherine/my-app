@@ -139,6 +139,7 @@ function Home() {
   </p>
   <img src={imagesImage3} alt="Restaurant" style={imageStyle} />
 </div>
+<p>Checkout our Socials</p>
 <Footer />
     </>
   );

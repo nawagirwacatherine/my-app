@@ -75,6 +75,7 @@ function Login() {
 
   </div>
 </div>
+<p>Checkout our Socials</p>
   <Footer />
 
   </>

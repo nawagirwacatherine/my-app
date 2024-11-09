@@ -163,7 +163,7 @@ comment:
 
   </div>
 </div>
-
+<p>Checkout our Socials</p>
 <Footer />
     </>
   )
