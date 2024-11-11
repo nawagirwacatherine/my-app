@@ -23,8 +23,8 @@ function Menu() {
 
 <div className="menu">
   <h1>Our daily Menu, Only your favorite</h1>
-  <div className="testimonial-section">
-    <section className="testimonial-item">
+  <div className="menu-section">
+    <section className="menu-item">
       <img src={imagesHighlight} alt="Testimonial 1" className="image" />
       <article>
       <p>
@@ -39,7 +39,7 @@ function Menu() {
       </article>
     </section>
 
-    <section className="testimonial-item">
+    <section className="menu-item">
       <img src={imagesDissert} alt="Testimonial 2" className="image" />
       <article>
       <p>
@@ -55,7 +55,7 @@ function Menu() {
       </article>
     </section>
 
-    <section className="testimonial-item">
+    <section className="menu-item">
       <img src={imagesDissert1} alt="Testimonial 3" className="image" />
       <article>
       <p>

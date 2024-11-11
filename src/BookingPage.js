@@ -86,9 +86,11 @@ function BookingPage() {
     <input type="Submit" value="Make Your reservation"/>
     </form>
 
-
+<div>
+  <p>We welcome your feed back!</p>
+</div>
   
-    <div className="App">
+    
     
       <form onSubmit={handleSubmit}>
       <h1 className="heading">Customer feedback</h1>
@@ -123,11 +125,8 @@ comment:
         </fieldset>
 
       </form>
-    </div>
 
-  
 
-      
 <div className="Testimonials">
   <h1>Testimonials</h1>
   <div className="testimonial-section">
