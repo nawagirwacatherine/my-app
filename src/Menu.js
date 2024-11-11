@@ -2,8 +2,8 @@
 import './App.js';
 import './style.css';
 import imagesHighlight from './images/highlight.jpeg';
-import imagesHighlight1 from './images/highlight1.png';
-import imagesHighlight2 from './images/highlight2.jpg';
+import imagesDissert from './images/dissert.jpg';
+import imagesDissert1 from './images/dissert1.jpg';
 import Footer from './Footer';
 
 function Menu() {
@@ -21,7 +21,7 @@ function Menu() {
             </div>
             
 
-<div className="Testimonials">
+<div className="menu">
   <h1>Our daily Menu, Only your favorite</h1>
   <div className="testimonial-section">
     <section className="testimonial-item">
@@ -40,7 +40,7 @@ function Menu() {
     </section>
 
     <section className="testimonial-item">
-      <img src={imagesHighlight1} alt="Testimonial 2" className="image" />
+      <img src={imagesDissert} alt="Testimonial 2" className="image" />
       <article>
       <p>
       <ol className="ordered-menu">
@@ -56,7 +56,7 @@ function Menu() {
     </section>
 
     <section className="testimonial-item">
-      <img src={imagesHighlight2} alt="Testimonial 3" className="image" />
+      <img src={imagesDissert1} alt="Testimonial 3" className="image" />
       <article>
       <p>
       <ol className="ordered-menu">

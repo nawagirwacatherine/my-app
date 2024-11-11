@@ -1,7 +1,7 @@
 import "./style.css"
-import imagesMenu from './images/Menu.jpg';
-import imagesMenu1 from './images/Menu1.jpg';
-import imagesMenu2 from './images/Menu2.jpg';
+import imagesMenu from './images/menu.jpeg';
+import imagesMenu1 from './images/menu1.jpg';
+import imagesMenu2 from './images/menu2.jpg';
 import Footer from './Footer';
 
 function AboutPage () {
