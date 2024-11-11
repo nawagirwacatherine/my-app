@@ -234,6 +234,7 @@ article{
   border-radius: 40px;
 }
 
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -259,7 +260,9 @@ article{
 .logo {
   width: 50px;
   height: auto;
+  margin-right: 20px;
 }
+
 
 .icon-container span {
   font-size: 14px;
