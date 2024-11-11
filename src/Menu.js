@@ -1,6 +1,7 @@
 
 import './App.js';
 import './style.css';
+import imagesVideo4 from './images/video4.mp4';
 import imagesHighlight from './images/highlight.jpeg';
 import imagesDissert from './images/dissert.jpg';
 import imagesDissert1 from './images/dissert1.jpg';
@@ -11,6 +12,9 @@ function Menu() {
     return (
         <>
         <div>
+         <video controls>
+  <source src={imagesVideo4} type="video/mp4" />
+</video>
 
             <h1 className='heading'>
                 OUR DAILY MENU

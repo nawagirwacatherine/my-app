@@ -4,7 +4,7 @@ import Footer from './Footer';
 import imagesImage4 from './images/image4.jpg';
 import imagesImage2 from './images/image2.jpg';
 import imagesImage3 from './images/image3.jpg';
-import imagesImage1 from './images/image1.jpg';
+import imagesMenu4 from './images/menu4.jpeg';
 import imagesHighlight from './images/highlight.jpeg';
 import imagesHighlight1 from './images/highlight1.png';
 import imagesHighlight2 from './images/highlight2.jpg';
@@ -79,7 +79,7 @@ function Home() {
 
 
       <section className="highlights-item">
-      <img src={imagesImage1} alt="Highlight 4" className="image" />
+      <img src={imagesMenu4} alt="Highlight 4" className="image" />
       <p>
         Our clients celebrating birthdays
       </p>

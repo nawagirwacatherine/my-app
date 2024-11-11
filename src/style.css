@@ -120,6 +120,40 @@ form input, form select {
 .menu-section {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px;
+  background-color: #3c4313;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .menu-section {
+    flex-direction: row;
+    justify-content: center; /* Center items horizontally on larger screens */
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item article {
+    text-align: center;
+  }
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
   align-items:center; 
   gap: 20px;
   background-color: #3c4313;

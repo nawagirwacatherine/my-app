@@ -120,16 +120,7 @@ function Login() {
 
   };
 
-  // const backgroundStyle = {
-  //   backgroundImage: `linear-gradient(rgba(2,5,10,0.4),#009688),url(${image3Images})`,
-  //   backgroundSize: 'cover',
-  //   backgroundPosition: 'center',
-  //   height: '100vh',
-  //   borderRadius: '10px',
-  //   display: 'flex',
-  //   justifyContent: 'center',
-  //   alignItems: 'center',
-  // };
+
 
   return (
     <>
