@@ -15,8 +15,9 @@ function Home() {
     display: 'flex', 
     alignItems: 'center', 
     justifyContent: 'space-between', 
-    padding: '20px',
+    padding: '30px',
     flexDirection: 'row-reverse',
+
   };
 
   const imageStyle = {
@@ -42,18 +43,13 @@ function Home() {
             Nestled in the heart of Kampala, Little Lemon is your go-to destination for fresh, vibrant, and flavorful dishes inspired by Mediterranean/Italian/Global cuisine. We’re passionate about using high-quality ingredients to create meals that are as beautiful as they are delicious, perfect for family gatherings, date nights, and friendly get-togethers. Come savor our warm, inviting atmosphere, where every meal feels like a celebration of great food, good company, and unforgettable flavors.
           </p>
 
-          {/* <button>
-            <input type='text'>button</input>
-          </button> */}
+         <button type="text">button</button>
+
+        
 </div>
+
     </div>
-    <div className="background-style">
-    </div>
-     {/* <div>
-      <h1>Discover more below!</h1>
-      <p>Highlights<br/>Testimonial<br/>Our photos
-      <br/>briefly about us</p>
-    </div> */}
+
     <div className='highlights'>
       <h1>Highlights</h1>
       <div className="footer-images">
