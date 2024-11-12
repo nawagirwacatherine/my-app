@@ -5,7 +5,7 @@ import Footer from './Footer';
 import imagesHighlight from './images/highlight.jpeg';
 import imagesHighlight1 from './images/highlight1.png';
 import imagesHighlight2 from './images/highlight2.jpg';
-import imagesVideo3 from './images/video3.mp4';
+// import imagesVideo3 from './images/video3.mp4';
 
 
 function BookingPage() {
@@ -45,9 +45,9 @@ function BookingPage() {
   return (
     <>
     <div>
-    <video controls>
+    {/* <video controls>
   <source src={imagesVideo3} type="video/mp4" />
-</video>
+</video> */}
       <h1>FOR ALL YOUR RESERVATIONS CHECK DOWN HERE!</h1>
       <p>We have a form down please place your reservation!  <b/>Feel free to feedback about anything we are here to serve you<b/></p>
     </div>
