@@ -82,7 +82,9 @@ form input, form select {
   }
 
 
-
+ video{
+  border-radius: 100px;
+ }
 
   .unordered-menu {
     list-style-type: disc; 
