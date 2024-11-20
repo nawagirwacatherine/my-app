@@ -36,21 +36,20 @@
   .nav-items-wrapper {
     display: flex;
     justify-content: center;
-    flex-grow: 1; /* Allows nav items to grow and align centrally */
+    flex-grow: 1; 
   }
-  /* Hover effect on navigation links */
+  
   .nav-item:hover {
     background-color: #495057;
     color: #f8f9fa;
   }
   
-  /* Styling for the active navigation link */
+
   .nav-item.active {
     background-color: #007bff;
     color: #fff;
   }
   
-  /* Styling for each page (optional, depending on your components) */
   .page {
     padding: 20px;
   }
