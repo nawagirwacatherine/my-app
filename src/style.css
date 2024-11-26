@@ -220,6 +220,7 @@ form input, form select {
 
 .testimonial-item .image {
   order: -1; /* Image appears first */
+ 
 }
 
 .testimonial-item article {
