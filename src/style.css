@@ -15,9 +15,9 @@
     height: auto; 
     margin: 0; 
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid  #212221;
     border-radius: 10px;
-    background-color: grey;
+    background-color: #435144;
     background-size: cover; 
     background-position: center; 
   }
