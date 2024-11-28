@@ -145,7 +145,9 @@ comment:
     </section>
 
     <section className="testimonial-item">
+    
       <img src={imagesHighlight1} alt="Testimonial 2" className="image" />
+  
       <article>
       <p>
         "Perfect place for a family meal or a romantic dinner. The dishes are beautifully presented, and the staff treats you like family. My favorite spot in the city!"
