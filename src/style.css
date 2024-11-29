@@ -127,11 +127,15 @@ form input, form select {
 }
 
 .menu-item {
+  margin: 0;
+  width: 100%;
+  max-width: 300px; /* or set a desired width */
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 @media (min-width: 768px) {
