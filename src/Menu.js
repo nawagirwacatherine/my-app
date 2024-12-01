@@ -32,13 +32,13 @@ function Menu() {
       <img src={imagesHighlight} alt="Testimonial 1" className="image" />
       <article>
       <p>
-      <ul className="unordered-menu">
+      <ol className="ordered-menu">
                 <li>Matooke</li>
                 <li>Irish</li>
                 <li>Rice</li>
                 <li>Posho</li>
                 <li>Cassava</li>
-            </ul>
+            </ol>
       </p>
       </article>
     </section>
