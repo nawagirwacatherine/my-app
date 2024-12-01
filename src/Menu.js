@@ -16,10 +16,10 @@ function Menu() {
   <source src={imagesVideo2} type="video/mp4" />
 </video>
 
-            <h1 className='heading'>
+            <h1>
                 OUR DAILY MENU
             </h1>
-            <p className='heading'>At our restaurant our customers are our priority please expect the 
+            <p>At our restaurant our customers are our priority please expect the 
                 best of the best service from us
             </p>
             </div>

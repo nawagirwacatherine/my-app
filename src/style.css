@@ -60,11 +60,11 @@ input[type="submit"]:hover {
 form input, form select {
     margin-bottom: 15px;
   }
-  p{
-    color: rgb(242, 247, 247);
-  }
-  h1{
-    color: #3a722d;
+  /* p{
+    color: rgb(242, 247, 247); */
+
+  h1,p {
+    color: white;
   }
 
 .heading {
