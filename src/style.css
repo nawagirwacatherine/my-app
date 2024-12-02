@@ -63,13 +63,10 @@ form input, form select {
   /* p{
     color: rgb(242, 247, 247); */
 
-  h1,p {
+  h1,h2,p {
     color: white;
   }
 
-.heading {
-    color: green;
-  }
   .background-style {
     height:100vh;
     border-radius: 10px;
