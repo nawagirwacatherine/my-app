@@ -14,7 +14,7 @@ function BookingPage() {
    const[comment, setComment]= useState(";")
    const [date, setDate] = useState("");
    const [time, setTime] = useState("");
-   const [guests, setGuests] = useState(1);
+   const [guests, setGuests] = useState(10);
    const [occasion, setOccasion] = useState("");
   const handleSubmit = (e) =>{
     e.preventDefault();
@@ -81,8 +81,10 @@ function BookingPage() {
       value={occasion}
       onChange={(e) => setOccasion(e.target.value)}
     >
-      <option >Birthday</option>
+      <option >Meetings</option>
       <option >Anniversary</option>
+      <option >Birthday</option>
+      <option >Baby shower</option>
     </select>
     <input type="Submit" value="Make Your reservation"/>
     </form>
